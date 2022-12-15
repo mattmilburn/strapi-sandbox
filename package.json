@@ -13,9 +13,13 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.5.4",
-    "@strapi/plugin-users-permissions": "4.5.4",
+    "@strapi/design-system": "1.4.0",
+    "@strapi/helper-plugin": "4.5.4",
+    "@strapi/icons": "1.4.0",
     "@strapi/plugin-i18n": "4.5.4",
+    "@strapi/plugin-users-permissions": "4.5.4",
+    "@strapi/strapi": "4.5.4",
+    "@strapi/utils": "4.5.4",
     "pg": "8.6.0"
   },
   "author": {
