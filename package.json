@@ -3,6 +3,15 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application for testing custom features.",
+  "license": "MIT",
+  "author": {
+    "name": "Matt Milburn",
+    "url": "https://github.com/mattmilburn"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -26,15 +35,7 @@
     "strapi-plugin-preview-button": "1.0.1",
     "strapi-plugin-transformer": "2.0.2"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
   "strapi": {
     "uuid": "52ac4133-6208-47f0-a17b-2652618b3706"
-  },
-  "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  }
 }
