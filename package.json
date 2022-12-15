@@ -7,7 +7,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "upgrade-strapi": "./upgrade-strapi.sh",
+    "upgrade-strapi-design": "./upgrade-strapi-design.sh"
   },
   "devDependencies": {},
   "dependencies": {
