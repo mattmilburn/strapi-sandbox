@@ -2,7 +2,7 @@
   "name": "strapi-sandbox",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi application for testing custom features.",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -20,7 +20,11 @@
     "@strapi/plugin-users-permissions": "4.5.4",
     "@strapi/strapi": "4.5.4",
     "@strapi/utils": "4.5.4",
-    "pg": "8.6.0"
+    "lodash": "4.17.21",
+    "pg": "8.6.0",
+    "strapi-plugin-menus": "1.1.0",
+    "strapi-plugin-preview-button": "1.0.1",
+    "strapi-plugin-transformer": "2.0.2"
   },
   "author": {
     "name": "A Strapi developer"
