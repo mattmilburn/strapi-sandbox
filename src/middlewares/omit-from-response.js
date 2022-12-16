@@ -1,4 +1,10 @@
-const { get, has, head, isArray, omit } = require( 'lodash' );
+'use strict';
+
+const get = require( 'lodash/get' );
+const has = require( 'lodash/has' );
+const head = require( 'lodash/head' );
+const isArray = require( 'lodash/isArray' );
+const omit = require( 'lodash/omit' );
 
 // Transform the response object.
 const transform = ( data, config ) => {
