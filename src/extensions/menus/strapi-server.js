@@ -56,16 +56,16 @@ module.exports = plugin => {
       allowedTypes: [ 'images' ],
       multiple: false,
     },
-    // example_relation_one: {
-    //   type: 'relation',
-    //   relation: 'oneToOne',
-    //   target: 'api::example-one.example-one',
-    // },
-    // example_relation_many: {
-    //   type: 'relation',
-    //   relation: 'oneToMany',
-    //   target: 'api::example-many.example-many',
-    // },
+    example_relation_one: {
+      type: 'relation',
+      relation: 'oneToOne',
+      target: 'api::recipe.recipe',
+    },
+    example_relation_many: {
+      type: 'relation',
+      relation: 'oneToMany',
+      target: 'api::tag.tag',
+    },
   };
 
   // Extend the `MenuItem` content type with custom attributes.

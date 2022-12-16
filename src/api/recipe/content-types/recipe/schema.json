@@ -1,28 +1,24 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "recipes",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Post",
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe",
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
+      "default": "title",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title",
-      "required": true
-    },
-    "publish_date": {
-      "type": "date"
+    "content": {
+      "type": "richtext"
     },
     "cover_image": {
       "type": "media",
@@ -31,14 +27,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "content": {
-      "type": "richtext"
-    },
-    "author": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::author.author"
     },
     "category": {
       "type": "relation",

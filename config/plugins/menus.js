@@ -149,20 +149,20 @@ module.exports = () => ( {
             ],
           },
         },
-        // {
-        //   input: {
-        //     label: 'Relation (hasOne)',
-        //     name: 'example_relation_one',
-        //     type: 'relation',
-        //   },
-        // },
-        // {
-        //   input: {
-        //     label: 'Relation (hasMany)',
-        //     name: 'example_relation_many',
-        //     type: 'relation',
-        //   },
-        // },
+        {
+          input: {
+            label: 'Recipe (hasOne)',
+            name: 'example_relation_one',
+            type: 'relation',
+          },
+        },
+        {
+          input: {
+            label: 'Tag (hasMany)',
+            name: 'example_relation_many',
+            type: 'relation',
+          },
+        },
       ],
     },
   },
