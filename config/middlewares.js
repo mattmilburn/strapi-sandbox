@@ -9,4 +9,20 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  {
+    name: 'global::omit-from-response',
+    config: {
+      generalFields: [ 'createdAt', 'updatedAt' ],
+      mediaFields: [
+        'caption',
+        'formats',
+        'hash',
+        'name',
+        'previewUrl',
+        'provider',
+        'provider_metadata',
+        'size',
+      ],
+    },
+  },
 ];
