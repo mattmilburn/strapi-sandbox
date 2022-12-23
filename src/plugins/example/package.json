@@ -1,0 +1,12 @@
+{
+  "name": "testing",
+  "version": "0.1.0",
+  "description": "Testing.",
+  "strapi": {
+    "displayName": "Testing",
+    "name": "testing",
+    "description": "Testing",
+    "kind": "plugin"
+  },
+  "dependencies": {}
+}

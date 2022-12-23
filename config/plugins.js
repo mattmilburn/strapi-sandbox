@@ -5,6 +5,10 @@ const previewButtonConfig = require( './plugins/preview-button' );
 const transformerConfig = require( './plugins/transformer' );
 
 module.exports = params => ( {
+  'example': {
+    enabled: true,
+    resolve: './src/plugins/example',
+  },
   'menus': {
     config: menusConfig( params ),
   },
