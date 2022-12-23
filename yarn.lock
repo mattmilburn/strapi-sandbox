@@ -9282,10 +9282,10 @@ strapi-plugin-menus@1.2.0:
     react-select "^5.2.2"
     styled-components "^5.3.3"
 
-strapi-plugin-preview-button@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-1.1.0.tgz#3b90a6f9f1a1c124b2289e21388deb48d824b8f3"
-  integrity sha512-h1awuOBQW6unPW1ixipsc2kPJKohs1e+8HhdAvJwFQFMAj9viGHDyLrp8hyphbaR6VSsWQqvOI+feyo90WRTBw==
+strapi-plugin-preview-button@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-1.1.1.tgz#f6d0f68280bcf369ef1bcfa34bbb4c2f5df98387"
+  integrity sha512-C86qcyIIwdSfZM5P1lA0VwCo3bnFtSs2PBhrmX+8q2Flqmuv3z+AvKPa/5cwwMp+E36DtqxZIa921Ndq/yAZ3w==
   dependencies:
     immer "^9.0.12"
     prop-types "^15.8.1"

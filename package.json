@@ -32,7 +32,7 @@
     "lodash": "4.17.21",
     "pg": "8.6.0",
     "strapi-plugin-menus": "1.2.0",
-    "strapi-plugin-preview-button": "1.1.0",
+    "strapi-plugin-preview-button": "1.1.1",
     "strapi-plugin-transformer": "2.0.2"
   },
   "strapi": {
