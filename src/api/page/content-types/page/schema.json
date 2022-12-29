@@ -23,6 +23,11 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
     }
   }
 }
