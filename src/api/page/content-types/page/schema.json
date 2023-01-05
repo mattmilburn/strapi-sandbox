@@ -17,8 +17,10 @@
       "required": true
     },
     "slug": {
-      "type": "uid",
+      "type": "customField",
+      "customField": "plugin::permalinks.permalink",
       "targetField": "title",
+      "targetRelation": "parent",
       "required": true
     },
     "content": {
