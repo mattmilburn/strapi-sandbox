@@ -14,6 +14,12 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "recipe": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::recipe.recipe",
+      "inversedBy": "tags"
     }
   }
 }
