@@ -1,6 +1,8 @@
 'use strict';
 
 module.exports = ( { env } ) => ( {
+  injectListViewColumn: false,
+  openTarget: 'StrapiPreview',
   contentTypes: [
     {
       uid: 'api::page.page',
