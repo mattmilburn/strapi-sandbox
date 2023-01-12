@@ -9200,10 +9200,10 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
   integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
 
-strapi-plugin-menus@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-menus/-/strapi-plugin-menus-1.2.0.tgz#b05798456fd6cbe552659cbc9fe1739324026666"
-  integrity sha512-hemFOEiqYz08PQq+anFmuGXThuwxDK3Kb2n7uIoENYzhk9ueROrsb2g12pJEzzDrT9ljCd/sxsBZPxomFcdEag==
+strapi-plugin-menus@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-menus/-/strapi-plugin-menus-1.2.1.tgz#a216422042039708087abc0df87ed6911e8f5ca1"
+  integrity sha512-r/vHYAZ/efZ4TyhsTTydX7d9w30ZoX5TdU6ojj8ze4CpkJw9yiyVlML5UKe+VVqADkOCgxAfcpUau+/vZpVQsg==
   dependencies:
     axios "^0.27.2"
     lodash "4.17.21"
@@ -9233,10 +9233,10 @@ strapi-plugin-permalinks@0.4.0:
     react-redux "^7.2.6"
     styled-components "^5.3.3"
 
-strapi-plugin-preview-button@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-1.1.1.tgz#f6d0f68280bcf369ef1bcfa34bbb4c2f5df98387"
-  integrity sha512-C86qcyIIwdSfZM5P1lA0VwCo3bnFtSs2PBhrmX+8q2Flqmuv3z+AvKPa/5cwwMp+E36DtqxZIa921Ndq/yAZ3w==
+strapi-plugin-preview-button@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-1.1.2.tgz#453a5b91a2e53ff3a930917e74aceb57460a0121"
+  integrity sha512-YnNTLxa9YFK9H6Vk4/tFQlWAfGSLuX2IKZMxVOiqww5yt78rn0AiKU+pk/ZqYUFB2msO8uCGWeJxsBvFHDhl2g==
   dependencies:
     immer "^9.0.12"
     prop-types "^15.8.1"
