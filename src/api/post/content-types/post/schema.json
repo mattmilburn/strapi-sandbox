@@ -26,9 +26,16 @@
       }
     },
     "slug": {
-      "type": "uid",
+      "type": "customField",
+      "customField": "plugin::permalinks.permalink",
       "targetField": "title",
-      "required": true
+      "targetRelation": "parent",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "publish_date": {
       "type": "date",
@@ -68,6 +75,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
     }
   }
 }
