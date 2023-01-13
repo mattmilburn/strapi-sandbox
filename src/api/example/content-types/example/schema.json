@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examples",
+  "info": {
+    "singularName": "example",
+    "pluralName": "examples",
+    "displayName": "Example",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "example_title": {
+      "type": "string",
+      "required": true
+    },
+    "example_slug": {
+      "type": "customField",
+      "customField": "plugin::permalinks.permalink",
+      "targetField": "example_title",
+      "targetRelation": "example_parent",
+      "required": true
+    },
+    "example_content": {
+      "type": "richtext"
+    },
+    "example_parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}
