@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = ( { env } ) => ( {
-  injectListViewColumn: false,
+  injectListViewColumn: true,
   openTarget: 'StrapiPreview',
   contentTypes: [
     {

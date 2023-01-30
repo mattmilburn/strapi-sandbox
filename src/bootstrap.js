@@ -1,7 +1,7 @@
 'use strict';
 
-const lowercaseSlug = require( './lifecycle-hooks/lowercase-slug' );
-const publishDate = require( './lifecycle-hooks/publish-date' );
+const lowercaseSlug = require( './lifecycles/lowercase-slug' );
+const publishDate = require( './lifecycles/publish-date' );
 
 module.exports = params => {
   const pageTypes = [
