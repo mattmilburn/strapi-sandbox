@@ -1,11 +1,16 @@
 'use strict';
 
-module.exports = () => ( {
+module.exports = ( { env } ) => ( {
+  lowercase: true,
   contentTypes: [
     {
-      uid: 'api::page.page',
-      targetField: 'slug',
-      targetRelation: 'parent',
+      uids: [ 'api::page.page', 'api::example.example' ],
+      url: `${env( 'STRAPI_PERMALINKS_BASE_URL' )}/{slug}`,
+      copy: false,
+    },
+    {
+      uids: [ 'api::post.post' ],
+      url: `${env( 'STRAPI_PERMALINKS_BASE_URL' )}/blog/{slug}`,
     },
   ],
 } );

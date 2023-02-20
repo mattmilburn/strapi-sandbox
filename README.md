@@ -37,8 +37,9 @@ Once Strapi has started you will be prompted to **register a user**.
 
 | Plugin | Version |
 | -- | -- |
-| [Menus](https://github.com/mattmilburn/strapi-plugin-menus) | 1.1.0 |
-| [Preview Button](https://github.com/mattmilburn/strapi-plugin-preview-button) | 1.0.1 |
+| [Menus](https://github.com/mattmilburn/strapi-plugin-menus) | 1.3.1 |
+| [Permalinks](https://github.com/mattmilburn/strapi-plugin-permalinks) | 1.0.0 |
+| [Preview Button](https://github.com/mattmilburn/strapi-plugin-preview-button) | 1.1.2 |
 | [Transformer](https://github.com/ComfortablyCoding/strapi-plugin-transformer) | 2.0.2 |
 
 
