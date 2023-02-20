@@ -1,3 +1,6 @@
+import permalinksBeforeBuildUrl from './hooks/permalinks-before-build-url';
+import previewButtonBeforeBuildUrl from './hooks/preview-button-before-build-url';
+
 export default {
   register( app ) {
     app.registerPlugin( {
@@ -7,20 +10,10 @@ export default {
   },
 
   bootstrap( app ) {
-    app.registerHook( 'plugin/preview-button/before-build-url', ( { state, data } ) => {
-      console.log( 'BEFORE BUILD PREVIEW URL', state, data );
+    // Permalinks "before build URL" hook.
+    // app.registerHook( 'plugin/permalinks/before-build-url', permalinksBeforeBuildUrl );
 
-      /**
-       * @NOTE - Modify `state` and use `data` to make decisions. The `state` is
-       * just the original config object from `config/plugins.js`.
-       */
-
-      return {
-        state: {
-          ...state,
-          example: 'EXAMPLE',
-        },
-      };
-    } );
+    // Preview Button "before build URL" hook.
+    // app.registerHook( 'plugin/preview-button/before-build-url', previewButtonBeforeBuildUrl );
   },
 };
